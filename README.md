@@ -22,7 +22,7 @@ Windows CI 已通过编译、安装、启动、通知 URI 唤起、运行中升�
 
 ## 安装与启动
 
-1. 打开上方发布页，在 Assets 中下载 `Codex Pulse_0.1.3_x64-setup.exe`；不要下载 GitHub 自动生成的 Source code 压缩包。
+1. 打开上方发布页，在 Assets 中下载 `CodexPulse_0.1.3_x64-setup.exe`；不要下载 GitHub 自动生成的 Source code 压缩包。
 2. 安装包未签名，可能出现 SmartScreen 提示。确认下载地址和校验值后再决定是否继续；如被系统策略阻止，请反馈，不要关闭安全防护。
 3. 按安装向导完成安装，从开始菜单打开 Codex Pulse。
 4. 程序默认进入托盘、不弹面板；在右下角托盘（可能位于隐藏图标区域）找到图标，单击打开。
