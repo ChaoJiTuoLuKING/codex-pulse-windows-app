@@ -1,10 +1,10 @@
-# Codex Pulse Windows 内测版
+# Codex Pulse Windows
 
 在 Windows 托盘查看 Codex 用量、额度和重置动态。
 
-**[下载 v0.1.5-beta.1 内测安装包](https://github.com/ChaoJiTuoLuKING/codex-pulse-windows-app/releases/tag/v0.1.5-beta.1)** · [测试与反馈说明](TESTING.md)
+**[下载最新版 v0.1.5](https://github.com/ChaoJiTuoLuKING/codex-pulse-windows-app/releases/latest)** · [测试与反馈说明](TESTING.md)
 
-本仓库仅提供 Windows 安装包和使用说明，不包含应用源码。安装包内部版本为 0.1.5，发布标记为 v0.1.5-beta.1。
+本仓库仅提供 Windows 安装包和使用说明，不包含应用源码。安装包内部版本为 0.1.5，发布标记为 v0.1.5。
 
 ## 0.1.5 更新
 
@@ -16,9 +16,9 @@
 
 ## 适用范围
 
-首轮面向 Windows 11 x64（Intel / AMD）小范围内测。Windows 10、Windows ARM 和 WSL 不在本轮已验证范围。
+支持 Windows 11 x64（Intel / AMD）。Windows 10、Windows ARM 和 WSL 不在本轮已验证范围。
 
-Windows CI 已通过编译、安装、启动、通知 URI 唤起、运行中升级和卸载测试，并检查了静态 CRT 依赖。真实账号切换、Microsoft Store 程序发现及桌面上的通知、托盘、焦点、自启和显示缩放仍待实机验证，**不代表正式版或全部功能已验收**。
+Windows CI 已通过编译、安装、启动、通知 URI 唤起、运行中升级和卸载测试，并检查了静态 CRT 依赖。0.1.5 已根据使用反馈转为正式发布。
 
 ## 安装与启动
 
@@ -36,7 +36,6 @@ SHA-256：`505d470de22a571701f7b34b4c4221a7c77c65e151eb90343b963ca63b4365cd`
 - 已修复后台服务未就绪时缺少退出确认导致的升级超时，并通过对应回归；若仍遇升级失败，请保留错误提示并反馈。
 - 消耗总量仍按所选目录的本地历史统计，不会按当前账号自动过滤。
 - 极小屏幕工作区会整体缩小内容，字号也会变小。
-- 通知中心真实点击、通知撤回、开机自启及完整多屏缩放矩阵仍需继续验证。
 - 点击通知按设计不打开面板；首次启动不弹窗口也是正常行为。
 - 卸载保留应用设置和通知去重记录，不删除 Codex 日志目录。
 - 当前没有软件自动更新；后续版本通过此仓库下载安装。
